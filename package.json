@@ -7,6 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@tweenjs/tween.js": "^17.2.0",
+    "@types/three": "^0.93.10",
+    "three": "^0.98.0",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
