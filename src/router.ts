@@ -45,7 +45,21 @@ export default new Router({
       name: 'three-one',
       // @ts-ignore
       component: () =>
-        import(/* webpackChunkName: "perio" */ '@/views/three/one.vue')
+        import(/* webpackChunkName: "three-one" */ '@/views/three/one.vue')
+    },
+    {
+      path: '/three/two',
+      name: 'three-two',
+      // @ts-ignore
+      component: () =>
+        import(/* webpackChunkName: "three-two" */ '@/views/three/two.vue')
+    },
+    {
+      path: '/three/two/two',
+      name: 'three-two-two',
+      // @ts-ignore
+      component: () =>
+        import(/* webpackChunkName: "three-two" */ '@/views/three/two-two.vue')
     }
   ]
 })
